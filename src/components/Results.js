@@ -7,6 +7,9 @@ import wrong from '../assets/wrong.png';
 export default function Results() {
   const { resultsData } = useSelector((store) => store.results);
   const percentMark = 100*resultsData.score/resultsData.resultsQuestion.length;
+  window.addEventListener('load', () => {
+    window.location.assign('/');
+  });
 
   return (
     <>
