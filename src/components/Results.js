@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import React from 'react';
-import ProgressBar from './progressBar';
+// import ProgressBar from './progressBar';
 import correct from '../assets/correct.png';
 import wrong from '../assets/wrong.png';
 
@@ -13,7 +13,7 @@ export default function Results() {
       <div className="results-container">
         <h1 className="results-head">Results:</h1>
         <h2>{resultsData.score}/{resultsData.resultsQuestion.length}</h2>
-        <ProgressBar percentage={percentMark}/>
+        {/* <ProgressBar percentage={percentMark}/> */}
         <h2>Revision</h2>
         <div className="revision-container">
           {
