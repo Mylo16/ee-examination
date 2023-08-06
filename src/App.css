@@ -42,7 +42,7 @@ h1 {
   position: fixed;
   width: 100%;
   backdrop-filter: blur(15px);
-  box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.82);
+  box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.82);
   transition: 0.5s;
 }
 
@@ -148,7 +148,7 @@ h1 {
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
 }
 
 .cc,
@@ -161,16 +161,24 @@ h1 {
 .cc-links {
   text-decoration: none;
   font-size: 1.1em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cc-name {
+  text-align: center;
+  width: 60%;
 }
 
 .cc-sub-container,
 .level-sub-container {
-  box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.82);
+  box-shadow: 1px 5px 8px 0 rgba(0, 0, 0, 0.82);
   display: flex;
   flex-direction: column;
   gap: 1em;
   border-radius: 20px;
-  padding: 0.5em;
+  padding: 1.5em 0.5em;
 }
 
 .cc-code-container {
@@ -525,7 +533,7 @@ h1 {
   }
 
   .link {
-    color: rgb(12, 13, 63);
+    color: rgb(116, 116, 121);
   }
 
   .close {
